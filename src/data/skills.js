@@ -1,0 +1,85 @@
+const skills = [
+  {
+    category: "Mobile Development",
+    icon: "📱",
+    color: "#6366f1",
+    items: [
+      { name: "React Native", level: "primary" },
+      { name: "React Navigation", level: "primary" },
+      { name: "Android (RN CLI)", level: "primary" },
+      { name: "FlatList & SectionList", level: "primary" },
+      { name: "Context API", level: "primary" },
+      { name: "Zustand", level: "secondary" },
+      { name: "AsyncStorage", level: "primary" },
+      { name: "Cross-Platform UI", level: "primary" },
+    ],
+  },
+  {
+    category: "Frontend Development",
+    icon: "💻",
+    color: "#22d3ee",
+    items: [
+      { name: "JavaScript (ES6+)", level: "primary" },
+      { name: "React.js", level: "primary" },
+      { name: "HTML5", level: "primary" },
+      { name: "CSS3", level: "primary" },
+      { name: "Responsive UI", level: "primary" },
+      { name: "Figma to Code", level: "secondary" },
+    ],
+  },
+  {
+    category: "API & Backend",
+    icon: "🔗",
+    color: "#f97316",
+    items: [
+      { name: "REST API Integration", level: "primary" },
+      { name: "Axios", level: "primary" },
+      { name: "Async/Await", level: "primary" },
+      { name: "Node.js", level: "secondary" },
+      { name: "Express.js", level: "secondary" },
+      { name: "MongoDB", level: "secondary" },
+      { name: "WebSockets", level: "secondary" },
+    ],
+  },
+  {
+    category: "State Management",
+    icon: "⚡",
+    color: "#a855f7",
+    items: [
+      { name: "Redux", level: "primary" },
+      { name: "Context API", level: "primary" },
+      { name: "React Hooks", level: "primary" },
+      { name: "Zustand", level: "secondary" },
+      { name: "React Hook Form", level: "primary" },
+      { name: "Yup Validation", level: "primary" },
+    ],
+  },
+  {
+    category: "Integrations",
+    icon: "🔌",
+    color: "#10b981",
+    items: [
+      { name: "Razorpay", level: "primary" },
+      { name: "Google Maps API", level: "primary" },
+      { name: "Firebase (basics)", level: "secondary" },
+      { name: "Text-to-Speech API", level: "secondary" },
+      { name: "Payment Gateways", level: "primary" },
+    ],
+  },
+  {
+    category: "Tools & DevOps",
+    icon: "🛠️",
+    color: "#f59e0b",
+    items: [
+      { name: "Git & GitHub", level: "primary" },
+      { name: "VS Code", level: "primary" },
+      { name: "Android Studio", level: "primary" },
+      { name: "RN Debugger", level: "primary" },
+      { name: "Flipper", level: "secondary" },
+      { name: "Gradle Debugging", level: "secondary" },
+      { name: "Figma", level: "secondary" },
+    ],
+  },
+];
+
+export default skills;
