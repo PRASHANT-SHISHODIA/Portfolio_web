@@ -66,7 +66,7 @@ I'm passionate about mobile UI/UX, performance optimization, and continuously im
     },
   ],
 
-  resumeFile: "/assets/Prashant_Shishodia_Resume.pdf",
+  resumeFile: "/Prashant.pdf",
 };
 
 export default personal;
